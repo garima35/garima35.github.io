@@ -1,0 +1,17 @@
+h1 {
+	font-size: 45px;
+}
+body {
+	font-family: 'Cherry Swash';
+	text-align: center;
+    background-image: url("https://ak2.picdn.net/shutterstock/videos/19625329/thumb/1.jpg");
+    background-size: cover;
+}
+input {
+	font-family: 'Cherry Swash';
+   	font-size: 20px; 
+    text-align: center;
+}
+p {
+	font-size: 25px;
+}

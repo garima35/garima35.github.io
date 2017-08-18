@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Cherry Swash' rel='stylesheet'>
+<p>&nbsp;</p>
+<h1>Guess a Number from 1-100</h1>
+<p></p>
+<style src="guess_num.css"></style>
+<script src="guess_num.js"></script>
+</head>
+<body>
+<form>
+<p>&nbsp;</p>
+<p id="result">Type a number below to guess the mystery number.</p>
+<p>&nbsp;</p>
+<input type="text" id="guess_text" value="" size="3" autofocus="autofocus" maxlength="3" onkeypress="return isNumberKey(event)">
+<input onclick="user_guess()" type="button" id="guessed" value="Guess">
+<input onclick="user_giveUp()" type="button" id="gaveUp" value="Give Up">
+<p>&nbsp;</p>
+<input onclick="playAgain()" type="button" id="play2" value="Play Again" style="display: none">
+</form>
+</body>
+</html>
